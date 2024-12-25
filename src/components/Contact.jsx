@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./Contact.module.css";
+import { TbSend } from "react-icons/tb";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -66,10 +67,8 @@ const Contact = () => {
               required
             />
             <button className={styles.send} type="submit">
-              <img
+              <TbSend
                 className={styles.icon}
-                src="src/assets/actions/send.png"
-                alt="Send"
               />
             </button>
           </div>

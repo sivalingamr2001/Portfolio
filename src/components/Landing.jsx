@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import styles from "./Landing.module.css";
 import { LiaDownloadSolid } from "react-icons/lia";
 import Modal from "../utils/ui/Modal";
-import Resume from "../assets/Resume";
+import Resume from "../utils/Resume";
 
 const Landing = () => {
   const roles = [
