@@ -1,0 +1,42 @@
+.about {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 3em;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.profileImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}
+
+.bio {
+  flex: 1;
+  text-align: left;
+}
+
+.bio p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .profileImage {
+    width: 200px;
+    height: 200px;
+  }
+}
+

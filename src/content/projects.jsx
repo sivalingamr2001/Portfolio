@@ -1,0 +1,51 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Weather App",
+    description:
+      "It's my very first project and understanding of React and API",
+    image: "src/assets/projects/weather-app.png",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveLink: "https://sivalingamr2001.github.io/vite-react-deploy/",
+  },
+  {
+    id: 2,
+    title: "Hotel Menu Cart Design",
+    description: "A simple hotel menu cart design using React",
+    image: "src/assets/projects/cart.png",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveLink: "https://sivalingamr2001.github.io/vite-react-cart/",
+  },
+  {
+    id: 3,
+    title: "College Landing Page",
+    description: "A Modern College Landing Page using React",
+    image: "src/assets/projects/college.png",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveLink: "https://sivalingamr2001.github.io/college-react-vite/",
+  },
+  {
+    id: 4,
+    title: "Online Tutoring Website",
+    description: "Also a simple online tutoring website using React",
+    image: "src/assets/projects/online.png",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveLink: "https://learntolead.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Restaurant Website Design",
+    description: "A booking website for a restaurant using React",
+    image: "src/assets/projects/restaurant.png",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveLink: "https://sivalingamr2001.github.io/vite-react-trans/",
+  },
+  {
+    id: 6,
+    title: "Mini E-commerce Website",
+    description: "A Final Project for my React Course",
+    image: "src/assets/projects/commerce.png",
+    technologies: ["React", "Node.js", "MongoDB"],
+    liveLink: "https://sivalingamr2001.github.io/E-commerce/",
+  },
+];

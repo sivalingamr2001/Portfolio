@@ -1,0 +1,62 @@
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  text-align: center;
+  z-index: 1;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+  color: var(--secondary-color);
+  min-height: 2.5em;
+}
+
+.portfolio{
+  margin: 0;
+  padding: 0;
+  width: 50vw;
+  font-size: 15rem;
+  text-align: center;
+}
+
+.cta {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 2em;
+}
+
+.cta:hover {
+  background-color: var(--primary-color-dark);
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+}
+

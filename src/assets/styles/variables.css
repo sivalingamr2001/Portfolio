@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap");
+
+:root {
+  /* Font Families */
+  --font-family: "Varela Round", sans-serif;
+  --font-family-2: Montserrat, sans-serif;
+
+  /* Line Height */
+  --line-height: 1.6;
+  --btn-color: #90ee90;
+  --btn-hover: #b0ff7f;
+  --primary-color: #ff4500;
+  --secondary-color: #6c757d;
+  --background-color: #ffffff;
+  --transparent-color: hsla(0, 0%, 100%, 0.05);
+  --text-color: #000000;
+  --primary-color-dark: #ff7f50;
+  --secondary-color-dark: #c0c0c0;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  --background-color-rgb: linear-gradient(90deg, #ff6f61 0%, #ff9a8b 100%);
+
+  /* Gradients */
+  --gradient-text: linear-gradient(90deg, #ff6f61 0%, #ff9a8b 100%);
+  --gradient-blue: linear-gradient(
+    to right,
+    #2193b0,
+    #6dd5ed
+  ); /* For banners */
+  --gradient-green: linear-gradient(
+    to right,
+    #56c5a1,
+    #3d5a80
+  ); /* For offers */
+}
+
+.dark {
+  --background-color: #000000;
+  --transparent-color: hsla(0, 0%, 0%, 0.05);
+  --text-color: #ffffff;
+  --primary-color: #ff7f50;
+  --secondary-color: #a9a9a9;
+  --primary-color-dark: #ff4500;
+  --secondary-color-dark: #c0c0c0;
+  --box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2),
+    0 2px 4px rgba(255, 255, 255, 0.5);
+}
